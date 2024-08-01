@@ -1,0 +1,39 @@
+.intro__title {
+  font-family: "Inter";
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 92px;
+}
+
+.intro__title-p1 {
+  width: 738px;
+  height: 135.66px;
+  top: 1482.91px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #ffffff;
+}
+.intro__paragraph {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  width: 722px;
+  height: 181.54px;
+  top: 1694.46px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+}
