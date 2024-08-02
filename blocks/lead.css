@@ -7,6 +7,7 @@
   margin: auto;
   color: #ffffff;
   margin-top: 91px;
+  max-width: 720px;
 }
 
 .lead__subtitle {
@@ -18,9 +19,9 @@
   max-width: 720px;
   width: 100%;
   margin: auto;
-  color: #ffffff;
   margin-top: 32px;
   margin-bottom: 64px;
+  color: #ffffff;
 }
 
 .lead__image {
@@ -28,4 +29,10 @@
   width: 100%;
   height: 615px;
   margin: auto;
+  margin-top: 34px;
+}
+.lead__footer {
+  color: #ffffff;
+  max-width: 194px;
+  gap: 0px;
 }
