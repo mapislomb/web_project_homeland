@@ -34,5 +34,7 @@
 .lead__footer {
   color: #ffffff;
   max-width: 194px;
-  gap: 0px;
+  margin: auto;
+  margin-top: 92px;
+  margin-bottom: 24px;
 }
