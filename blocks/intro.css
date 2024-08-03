@@ -1,9 +1,9 @@
 .intro {
-  max-width: 830px;
+  max-width: 984px;
   margin-top: 92px;
   box-sizing: border-box;
   margin: auto;
-  margin-left: 148px;
+  width: 100%;
 }
 
 .intro__title {
@@ -43,7 +43,6 @@
   font-weight: 400;
   text-align: left;
   color: #ffffff;
-  margin: auto;
   max-width: 830px;
   margin-top: 40px;
 }
