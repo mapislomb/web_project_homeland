@@ -8,6 +8,9 @@
   margin: auto;
   gap: 40px;
 }
+.place__artist {
+  align-self: end;
+}
 .title__place {
   grid-area: title;
   font-family: "Inter";
@@ -21,6 +24,7 @@
   left: 151px;
   gap: 0px;
   color: #ffffff;
+  align-self: end;
 }
 .photo__place {
   grid-area: image;
@@ -34,6 +38,7 @@
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   opacity: 1;
   transition: opacity 0.5s ease;
+  aspect-ratio: 1;
 }
 
 .artist__place {
@@ -48,9 +53,9 @@
   color: #aaaaaa;
   width: 58px;
   height: 15px;
-  top: 3471px;
-  left: 648px;
+
   gap: 0px;
+  align-self: end;
 }
 .author__place {
   grid-area: artist;
@@ -60,7 +65,10 @@
   line-height: 22px;
   text-align: left;
   color: #ffffff;
+  align-self: end;
+  font-family: Inter;
 }
+
 .paragraph__place {
   grid-area: description;
   font-family: "Inter";
@@ -71,8 +79,9 @@
   color: #ffffff;
 }
 .button__place {
+  grid-area: button;
   color: #ffffff;
-  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px #00000040;
   text-decoration: none;
   font-family: "Inter";
@@ -87,8 +96,35 @@
   padding: 13px 20px 13px 20px;
   gap: 10px;
   border-radius: 4px 0px 0px 0px;
+  cursor: pointer;
+  height: fit-content;
+  align-self: center;
 }
 
 .button__place:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+}
+
+@media screen and (max-width: 1020px) {
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    display: grid;
+    grid-template-columns: 720px 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: "title artist" "image description" "button description";
+    max-width: 984px;
+    width: 100%;
+    margin: auto;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+  }
 }
