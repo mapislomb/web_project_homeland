@@ -77,7 +77,6 @@
   line-height: 29.34px;
   text-align: left;
   color: #ffffff;
-  width: 484px;
 }
 .place__button {
   grid-area: button;
@@ -107,15 +106,19 @@
 }
 
 @media screen and (max-width: 1020px) {
-  .places {
+  .place {
     display: grid;
-    grid-template-columns: 720px 1fr;
-    grid-template-rows: auto auto 1fr;
-    grid-template-areas: "title artist" "image description" "button description";
-    max-width: 984px;
-    width: 100%;
-    margin: auto;
-    gap: 40px;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: 1fr 340px;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 
